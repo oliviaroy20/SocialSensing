@@ -1,0 +1,943 @@
+{
+   "congress": "115",
+   "session": "1",
+   "congress_year": "2017",
+   "vote_number": "168",
+   "vote_date": "July 25, 2017, 09:22 PM",
+   "modify_date": "July 26, 2017, 11:17 AM",
+   "vote_question_text": "On the Motion (Motion to Waive All Applicable Budgetary Discipline Re: Amdt. No. 270)",
+   "vote_document_text": "Of a perfecting nature.",
+   "vote_result_text": "Motion Rejected (43-57, 3/5 majority required)",
+   "question": "On the Motion",
+   "vote_title": "Motion to Waive All Applicable Budgetary Discipline Re: Amdt. No. 270",
+   "majority_requirement": "3/5",
+   "vote_result": "Motion Rejected",
+   "document": {
+      "document_congress": "115",
+      "document_type": [],
+      "document_number": [],
+      "document_name": [],
+      "document_title": [],
+      "document_short_title": []
+   },
+   "amendment": {
+      "amendment_number": "S.Amdt. 270",
+      "amendment_to_amendment_number": "S.Amdt. 267",
+      "amendment_to_amendment_to_amendment_number": [],
+      "amendment_to_document_number": "H.R. 1628",
+      "amendment_to_document_short_title": "American Health Care Act of 2017",
+      "amendment_purpose": "Of a perfecting nature."
+   },
+   "count": {
+      "yeas": "43",
+      "nays": "57",
+      "present": [],
+      "absent": []
+   },
+   "tie_breaker": {
+      "by_whom": [],
+      "tie_breaker_vote": []
+   },
+   "members": [
+      {
+         "member_full": "Alexander (R-TN)",
+         "last_name": "Alexander",
+         "first_name": "Lamar",
+         "party": "R",
+         "state": "TN",
+         "vote_cast": "Yea",
+         "lis_member_id": "S289"
+      },
+      {
+         "member_full": "Baldwin (D-WI)",
+         "last_name": "Baldwin",
+         "first_name": "Tammy",
+         "party": "D",
+         "state": "WI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S354"
+      },
+      {
+         "member_full": "Barrasso (R-WY)",
+         "last_name": "Barrasso",
+         "first_name": "John",
+         "party": "R",
+         "state": "WY",
+         "vote_cast": "Yea",
+         "lis_member_id": "S317"
+      },
+      {
+         "member_full": "Bennet (D-CO)",
+         "last_name": "Bennet",
+         "first_name": "Michael",
+         "party": "D",
+         "state": "CO",
+         "vote_cast": "Nay",
+         "lis_member_id": "S330"
+      },
+      {
+         "member_full": "Blumenthal (D-CT)",
+         "last_name": "Blumenthal",
+         "first_name": "Richard",
+         "party": "D",
+         "state": "CT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S341"
+      },
+      {
+         "member_full": "Blunt (R-MO)",
+         "last_name": "Blunt",
+         "first_name": "Roy",
+         "party": "R",
+         "state": "MO",
+         "vote_cast": "Yea",
+         "lis_member_id": "S342"
+      },
+      {
+         "member_full": "Booker (D-NJ)",
+         "last_name": "Booker",
+         "first_name": "Cory",
+         "party": "D",
+         "state": "NJ",
+         "vote_cast": "Nay",
+         "lis_member_id": "S370"
+      },
+      {
+         "member_full": "Boozman (R-AR)",
+         "last_name": "Boozman",
+         "first_name": "John",
+         "party": "R",
+         "state": "AR",
+         "vote_cast": "Yea",
+         "lis_member_id": "S343"
+      },
+      {
+         "member_full": "Brown (D-OH)",
+         "last_name": "Brown",
+         "first_name": "Sherrod",
+         "party": "D",
+         "state": "OH",
+         "vote_cast": "Nay",
+         "lis_member_id": "S307"
+      },
+      {
+         "member_full": "Burr (R-NC)",
+         "last_name": "Burr",
+         "first_name": "Richard",
+         "party": "R",
+         "state": "NC",
+         "vote_cast": "Yea",
+         "lis_member_id": "S300"
+      },
+      {
+         "member_full": "Cantwell (D-WA)",
+         "last_name": "Cantwell",
+         "first_name": "Maria",
+         "party": "D",
+         "state": "WA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S275"
+      },
+      {
+         "member_full": "Capito (R-WV)",
+         "last_name": "Capito",
+         "first_name": "Shelley",
+         "party": "R",
+         "state": "WV",
+         "vote_cast": "Yea",
+         "lis_member_id": "S372"
+      },
+      {
+         "member_full": "Cardin (D-MD)",
+         "last_name": "Cardin",
+         "first_name": "Ben",
+         "party": "D",
+         "state": "MD",
+         "vote_cast": "Nay",
+         "lis_member_id": "S308"
+      },
+      {
+         "member_full": "Carper (D-DE)",
+         "last_name": "Carper",
+         "first_name": "Thomas",
+         "party": "D",
+         "state": "DE",
+         "vote_cast": "Nay",
+         "lis_member_id": "S277"
+      },
+      {
+         "member_full": "Casey (D-PA)",
+         "last_name": "Casey",
+         "first_name": "Bob",
+         "party": "D",
+         "state": "PA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S309"
+      },
+      {
+         "member_full": "Cassidy (R-LA)",
+         "last_name": "Cassidy",
+         "first_name": "Bill",
+         "party": "R",
+         "state": "LA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S373"
+      },
+      {
+         "member_full": "Cochran (R-MS)",
+         "last_name": "Cochran",
+         "first_name": "Thad",
+         "party": "R",
+         "state": "MS",
+         "vote_cast": "Yea",
+         "lis_member_id": "S136"
+      },
+      {
+         "member_full": "Collins (R-ME)",
+         "last_name": "Collins",
+         "first_name": "Susan",
+         "party": "R",
+         "state": "ME",
+         "vote_cast": "Nay",
+         "lis_member_id": "S252"
+      },
+      {
+         "member_full": "Coons (D-DE)",
+         "last_name": "Coons",
+         "first_name": "Christopher",
+         "party": "D",
+         "state": "DE",
+         "vote_cast": "Nay",
+         "lis_member_id": "S337"
+      },
+      {
+         "member_full": "Corker (R-TN)",
+         "last_name": "Corker",
+         "first_name": "Bob",
+         "party": "R",
+         "state": "TN",
+         "vote_cast": "Nay",
+         "lis_member_id": "S310"
+      },
+      {
+         "member_full": "Cornyn (R-TX)",
+         "last_name": "Cornyn",
+         "first_name": "John",
+         "party": "R",
+         "state": "TX",
+         "vote_cast": "Yea",
+         "lis_member_id": "S287"
+      },
+      {
+         "member_full": "Cortez Masto (D-NV)",
+         "last_name": "Cortez Masto",
+         "first_name": "Catherine",
+         "party": "D",
+         "state": "NV",
+         "vote_cast": "Nay",
+         "lis_member_id": "S385"
+      },
+      {
+         "member_full": "Cotton (R-AR)",
+         "last_name": "Cotton",
+         "first_name": "Tom",
+         "party": "R",
+         "state": "AR",
+         "vote_cast": "Nay",
+         "lis_member_id": "S374"
+      },
+      {
+         "member_full": "Crapo (R-ID)",
+         "last_name": "Crapo",
+         "first_name": "Mike",
+         "party": "R",
+         "state": "ID",
+         "vote_cast": "Yea",
+         "lis_member_id": "S266"
+      },
+      {
+         "member_full": "Cruz (R-TX)",
+         "last_name": "Cruz",
+         "first_name": "Ted",
+         "party": "R",
+         "state": "TX",
+         "vote_cast": "Yea",
+         "lis_member_id": "S355"
+      },
+      {
+         "member_full": "Daines (R-MT)",
+         "last_name": "Daines",
+         "first_name": "Steve",
+         "party": "R",
+         "state": "MT",
+         "vote_cast": "Yea",
+         "lis_member_id": "S375"
+      },
+      {
+         "member_full": "Donnelly (D-IN)",
+         "last_name": "Donnelly",
+         "first_name": "Joe",
+         "party": "D",
+         "state": "IN",
+         "vote_cast": "Nay",
+         "lis_member_id": "S356"
+      },
+      {
+         "member_full": "Duckworth (D-IL)",
+         "last_name": "Duckworth",
+         "first_name": "Tammy",
+         "party": "D",
+         "state": "IL",
+         "vote_cast": "Nay",
+         "lis_member_id": "S386"
+      },
+      {
+         "member_full": "Durbin (D-IL)",
+         "last_name": "Durbin",
+         "first_name": "Richard",
+         "party": "D",
+         "state": "IL",
+         "vote_cast": "Nay",
+         "lis_member_id": "S253"
+      },
+      {
+         "member_full": "Enzi (R-WY)",
+         "last_name": "Enzi",
+         "first_name": "Mike",
+         "party": "R",
+         "state": "WY",
+         "vote_cast": "Yea",
+         "lis_member_id": "S254"
+      },
+      {
+         "member_full": "Ernst (R-IA)",
+         "last_name": "Ernst",
+         "first_name": "Joni",
+         "party": "R",
+         "state": "IA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S376"
+      },
+      {
+         "member_full": "Feinstein (D-CA)",
+         "last_name": "Feinstein",
+         "first_name": "Dianne",
+         "party": "D",
+         "state": "CA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S221"
+      },
+      {
+         "member_full": "Fischer (R-NE)",
+         "last_name": "Fischer",
+         "first_name": "Deb",
+         "party": "R",
+         "state": "NE",
+         "vote_cast": "Yea",
+         "lis_member_id": "S357"
+      },
+      {
+         "member_full": "Flake (R-AZ)",
+         "last_name": "Flake",
+         "first_name": "Jeff",
+         "party": "R",
+         "state": "AZ",
+         "vote_cast": "Yea",
+         "lis_member_id": "S358"
+      },
+      {
+         "member_full": "Franken (D-MN)",
+         "last_name": "Franken",
+         "first_name": "Al",
+         "party": "D",
+         "state": "MN",
+         "vote_cast": "Nay",
+         "lis_member_id": "S332"
+      },
+      {
+         "member_full": "Gardner (R-CO)",
+         "last_name": "Gardner",
+         "first_name": "Cory",
+         "party": "R",
+         "state": "CO",
+         "vote_cast": "Yea",
+         "lis_member_id": "S377"
+      },
+      {
+         "member_full": "Gillibrand (D-NY)",
+         "last_name": "Gillibrand",
+         "first_name": "Kirsten",
+         "party": "D",
+         "state": "NY",
+         "vote_cast": "Nay",
+         "lis_member_id": "S331"
+      },
+      {
+         "member_full": "Graham (R-SC)",
+         "last_name": "Graham",
+         "first_name": "Lindsey",
+         "party": "R",
+         "state": "SC",
+         "vote_cast": "Nay",
+         "lis_member_id": "S293"
+      },
+      {
+         "member_full": "Grassley (R-IA)",
+         "last_name": "Grassley",
+         "first_name": "Charles",
+         "party": "R",
+         "state": "IA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S153"
+      },
+      {
+         "member_full": "Harris (D-CA)",
+         "last_name": "Harris",
+         "first_name": "Kamala",
+         "party": "D",
+         "state": "CA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S387"
+      },
+      {
+         "member_full": "Hassan (D-NH)",
+         "last_name": "Hassan",
+         "first_name": "Maggie",
+         "party": "D",
+         "state": "NH",
+         "vote_cast": "Nay",
+         "lis_member_id": "S388"
+      },
+      {
+         "member_full": "Hatch (R-UT)",
+         "last_name": "Hatch",
+         "first_name": "Orrin",
+         "party": "R",
+         "state": "UT",
+         "vote_cast": "Yea",
+         "lis_member_id": "S118"
+      },
+      {
+         "member_full": "Heinrich (D-NM)",
+         "last_name": "Heinrich",
+         "first_name": "Martin",
+         "party": "D",
+         "state": "NM",
+         "vote_cast": "Nay",
+         "lis_member_id": "S359"
+      },
+      {
+         "member_full": "Heitkamp (D-ND)",
+         "last_name": "Heitkamp",
+         "first_name": "Heidi",
+         "party": "D",
+         "state": "ND",
+         "vote_cast": "Nay",
+         "lis_member_id": "S360"
+      },
+      {
+         "member_full": "Heller (R-NV)",
+         "last_name": "Heller",
+         "first_name": "Dean",
+         "party": "R",
+         "state": "NV",
+         "vote_cast": "Nay",
+         "lis_member_id": "S352"
+      },
+      {
+         "member_full": "Hirono (D-HI)",
+         "last_name": "Hirono",
+         "first_name": "Mazie",
+         "party": "D",
+         "state": "HI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S361"
+      },
+      {
+         "member_full": "Hoeven (R-ND)",
+         "last_name": "Hoeven",
+         "first_name": "John",
+         "party": "R",
+         "state": "ND",
+         "vote_cast": "Yea",
+         "lis_member_id": "S344"
+      },
+      {
+         "member_full": "Inhofe (R-OK)",
+         "last_name": "Inhofe",
+         "first_name": "Jim",
+         "party": "R",
+         "state": "OK",
+         "vote_cast": "Yea",
+         "lis_member_id": "S236"
+      },
+      {
+         "member_full": "Isakson (R-GA)",
+         "last_name": "Isakson",
+         "first_name": "John",
+         "party": "R",
+         "state": "GA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S305"
+      },
+      {
+         "member_full": "Johnson (R-WI)",
+         "last_name": "Johnson",
+         "first_name": "Ron",
+         "party": "R",
+         "state": "WI",
+         "vote_cast": "Yea",
+         "lis_member_id": "S345"
+      },
+      {
+         "member_full": "Kaine (D-VA)",
+         "last_name": "Kaine",
+         "first_name": "Timothy",
+         "party": "D",
+         "state": "VA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S362"
+      },
+      {
+         "member_full": "Kennedy (R-LA)",
+         "last_name": "Kennedy",
+         "first_name": "John",
+         "party": "R",
+         "state": "LA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S389"
+      },
+      {
+         "member_full": "King (I-ME)",
+         "last_name": "King",
+         "first_name": "Angus",
+         "party": "I",
+         "state": "ME",
+         "vote_cast": "Nay",
+         "lis_member_id": "S363"
+      },
+      {
+         "member_full": "Klobuchar (D-MN)",
+         "last_name": "Klobuchar",
+         "first_name": "Amy",
+         "party": "D",
+         "state": "MN",
+         "vote_cast": "Nay",
+         "lis_member_id": "S311"
+      },
+      {
+         "member_full": "Lankford (R-OK)",
+         "last_name": "Lankford",
+         "first_name": "James",
+         "party": "R",
+         "state": "OK",
+         "vote_cast": "Yea",
+         "lis_member_id": "S378"
+      },
+      {
+         "member_full": "Leahy (D-VT)",
+         "last_name": "Leahy",
+         "first_name": "Patrick",
+         "party": "D",
+         "state": "VT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S057"
+      },
+      {
+         "member_full": "Lee (R-UT)",
+         "last_name": "Lee",
+         "first_name": "Mike",
+         "party": "R",
+         "state": "UT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S346"
+      },
+      {
+         "member_full": "Manchin (D-WV)",
+         "last_name": "Manchin",
+         "first_name": "Joe",
+         "party": "D",
+         "state": "WV",
+         "vote_cast": "Nay",
+         "lis_member_id": "S338"
+      },
+      {
+         "member_full": "Markey (D-MA)",
+         "last_name": "Markey",
+         "first_name": "Edward",
+         "party": "D",
+         "state": "MA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S369"
+      },
+      {
+         "member_full": "McCain (R-AZ)",
+         "last_name": "McCain",
+         "first_name": "John",
+         "party": "R",
+         "state": "AZ",
+         "vote_cast": "Yea",
+         "lis_member_id": "S197"
+      },
+      {
+         "member_full": "McCaskill (D-MO)",
+         "last_name": "McCaskill",
+         "first_name": "Claire",
+         "party": "D",
+         "state": "MO",
+         "vote_cast": "Nay",
+         "lis_member_id": "S312"
+      },
+      {
+         "member_full": "McConnell (R-KY)",
+         "last_name": "McConnell",
+         "first_name": "Mitch",
+         "party": "R",
+         "state": "KY",
+         "vote_cast": "Yea",
+         "lis_member_id": "S174"
+      },
+      {
+         "member_full": "Menendez (D-NJ)",
+         "last_name": "Menendez",
+         "first_name": "Robert",
+         "party": "D",
+         "state": "NJ",
+         "vote_cast": "Nay",
+         "lis_member_id": "S306"
+      },
+      {
+         "member_full": "Merkley (D-OR)",
+         "last_name": "Merkley",
+         "first_name": "Jeff",
+         "party": "D",
+         "state": "OR",
+         "vote_cast": "Nay",
+         "lis_member_id": "S322"
+      },
+      {
+         "member_full": "Moran (R-KS)",
+         "last_name": "Moran",
+         "first_name": "Jerry",
+         "party": "R",
+         "state": "KS",
+         "vote_cast": "Nay",
+         "lis_member_id": "S347"
+      },
+      {
+         "member_full": "Murkowski (R-AK)",
+         "last_name": "Murkowski",
+         "first_name": "Lisa",
+         "party": "R",
+         "state": "AK",
+         "vote_cast": "Nay",
+         "lis_member_id": "S288"
+      },
+      {
+         "member_full": "Murphy (D-CT)",
+         "last_name": "Murphy",
+         "first_name": "Christopher",
+         "party": "D",
+         "state": "CT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S364"
+      },
+      {
+         "member_full": "Murray (D-WA)",
+         "last_name": "Murray",
+         "first_name": "Patty",
+         "party": "D",
+         "state": "WA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S229"
+      },
+      {
+         "member_full": "Nelson (D-FL)",
+         "last_name": "Nelson",
+         "first_name": "Bill",
+         "party": "D",
+         "state": "FL",
+         "vote_cast": "Nay",
+         "lis_member_id": "S282"
+      },
+      {
+         "member_full": "Paul (R-KY)",
+         "last_name": "Paul",
+         "first_name": "Rand",
+         "party": "R",
+         "state": "KY",
+         "vote_cast": "Nay",
+         "lis_member_id": "S348"
+      },
+      {
+         "member_full": "Perdue (R-GA)",
+         "last_name": "Perdue",
+         "first_name": "David",
+         "party": "R",
+         "state": "GA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S379"
+      },
+      {
+         "member_full": "Peters (D-MI)",
+         "last_name": "Peters",
+         "first_name": "Gary",
+         "party": "D",
+         "state": "MI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S380"
+      },
+      {
+         "member_full": "Portman (R-OH)",
+         "last_name": "Portman",
+         "first_name": "Rob",
+         "party": "R",
+         "state": "OH",
+         "vote_cast": "Yea",
+         "lis_member_id": "S349"
+      },
+      {
+         "member_full": "Reed (D-RI)",
+         "last_name": "Reed",
+         "first_name": "John",
+         "party": "D",
+         "state": "RI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S259"
+      },
+      {
+         "member_full": "Risch (R-ID)",
+         "last_name": "Risch",
+         "first_name": "James",
+         "party": "R",
+         "state": "ID",
+         "vote_cast": "Yea",
+         "lis_member_id": "S323"
+      },
+      {
+         "member_full": "Roberts (R-KS)",
+         "last_name": "Roberts",
+         "first_name": "Pat",
+         "party": "R",
+         "state": "KS",
+         "vote_cast": "Yea",
+         "lis_member_id": "S260"
+      },
+      {
+         "member_full": "Rounds (R-SD)",
+         "last_name": "Rounds",
+         "first_name": "Mike",
+         "party": "R",
+         "state": "SD",
+         "vote_cast": "Yea",
+         "lis_member_id": "S381"
+      },
+      {
+         "member_full": "Rubio (R-FL)",
+         "last_name": "Rubio",
+         "first_name": "Marco",
+         "party": "R",
+         "state": "FL",
+         "vote_cast": "Yea",
+         "lis_member_id": "S350"
+      },
+      {
+         "member_full": "Sanders (I-VT)",
+         "last_name": "Sanders",
+         "first_name": "Bernie",
+         "party": "I",
+         "state": "VT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S313"
+      },
+      {
+         "member_full": "Sasse (R-NE)",
+         "last_name": "Sasse",
+         "first_name": "Ben",
+         "party": "R",
+         "state": "NE",
+         "vote_cast": "Yea",
+         "lis_member_id": "S382"
+      },
+      {
+         "member_full": "Schatz (D-HI)",
+         "last_name": "Schatz",
+         "first_name": "Brian",
+         "party": "D",
+         "state": "HI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S353"
+      },
+      {
+         "member_full": "Schumer (D-NY)",
+         "last_name": "Schumer",
+         "first_name": "Charles",
+         "party": "D",
+         "state": "NY",
+         "vote_cast": "Nay",
+         "lis_member_id": "S270"
+      },
+      {
+         "member_full": "Scott (R-SC)",
+         "last_name": "Scott",
+         "first_name": "Tim",
+         "party": "R",
+         "state": "SC",
+         "vote_cast": "Yea",
+         "lis_member_id": "S365"
+      },
+      {
+         "member_full": "Shaheen (D-NH)",
+         "last_name": "Shaheen",
+         "first_name": "Jeanne",
+         "party": "D",
+         "state": "NH",
+         "vote_cast": "Nay",
+         "lis_member_id": "S324"
+      },
+      {
+         "member_full": "Shelby (R-AL)",
+         "last_name": "Shelby",
+         "first_name": "Richard",
+         "party": "R",
+         "state": "AL",
+         "vote_cast": "Yea",
+         "lis_member_id": "S184"
+      },
+      {
+         "member_full": "Stabenow (D-MI)",
+         "last_name": "Stabenow",
+         "first_name": "Debbie",
+         "party": "D",
+         "state": "MI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S284"
+      },
+      {
+         "member_full": "Strange (R-AL)",
+         "last_name": "Strange",
+         "first_name": "Luther",
+         "party": "R",
+         "state": "AL",
+         "vote_cast": "Yea",
+         "lis_member_id": "S392"
+      },
+      {
+         "member_full": "Sullivan (R-AK)",
+         "last_name": "Sullivan",
+         "first_name": "Dan",
+         "party": "R",
+         "state": "AK",
+         "vote_cast": "Yea",
+         "lis_member_id": "S383"
+      },
+      {
+         "member_full": "Tester (D-MT)",
+         "last_name": "Tester",
+         "first_name": "Jon",
+         "party": "D",
+         "state": "MT",
+         "vote_cast": "Nay",
+         "lis_member_id": "S314"
+      },
+      {
+         "member_full": "Thune (R-SD)",
+         "last_name": "Thune",
+         "first_name": "John",
+         "party": "R",
+         "state": "SD",
+         "vote_cast": "Yea",
+         "lis_member_id": "S303"
+      },
+      {
+         "member_full": "Tillis (R-NC)",
+         "last_name": "Tillis",
+         "first_name": "Thomas",
+         "party": "R",
+         "state": "NC",
+         "vote_cast": "Yea",
+         "lis_member_id": "S384"
+      },
+      {
+         "member_full": "Toomey (R-PA)",
+         "last_name": "Toomey",
+         "first_name": "Patrick",
+         "party": "R",
+         "state": "PA",
+         "vote_cast": "Yea",
+         "lis_member_id": "S351"
+      },
+      {
+         "member_full": "Udall (D-NM)",
+         "last_name": "Udall",
+         "first_name": "Tom",
+         "party": "D",
+         "state": "NM",
+         "vote_cast": "Nay",
+         "lis_member_id": "S326"
+      },
+      {
+         "member_full": "Van Hollen (D-MD)",
+         "last_name": "Van Hollen",
+         "first_name": "Chris",
+         "party": "D",
+         "state": "MD",
+         "vote_cast": "Nay",
+         "lis_member_id": "S390"
+      },
+      {
+         "member_full": "Warner (D-VA)",
+         "last_name": "Warner",
+         "first_name": "Mark",
+         "party": "D",
+         "state": "VA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S327"
+      },
+      {
+         "member_full": "Warren (D-MA)",
+         "last_name": "Warren",
+         "first_name": "Elizabeth",
+         "party": "D",
+         "state": "MA",
+         "vote_cast": "Nay",
+         "lis_member_id": "S366"
+      },
+      {
+         "member_full": "Whitehouse (D-RI)",
+         "last_name": "Whitehouse",
+         "first_name": "Sheldon",
+         "party": "D",
+         "state": "RI",
+         "vote_cast": "Nay",
+         "lis_member_id": "S316"
+      },
+      {
+         "member_full": "Wicker (R-MS)",
+         "last_name": "Wicker",
+         "first_name": "Roger",
+         "party": "R",
+         "state": "MS",
+         "vote_cast": "Yea",
+         "lis_member_id": "S318"
+      },
+      {
+         "member_full": "Wyden (D-OR)",
+         "last_name": "Wyden",
+         "first_name": "Ron",
+         "party": "D",
+         "state": "OR",
+         "vote_cast": "Nay",
+         "lis_member_id": "S247"
+      },
+      {
+         "member_full": "Young (R-IN)",
+         "last_name": "Young",
+         "first_name": "Todd",
+         "party": "R",
+         "state": "IN",
+         "vote_cast": "Yea",
+         "lis_member_id": "S391"
+      }
+   ]
+}
