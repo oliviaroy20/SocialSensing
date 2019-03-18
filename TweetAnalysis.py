@@ -22,7 +22,7 @@ with open('Senators_twitter', 'r') as senatorsfile:
         senators.append(line.strip())
         politican_mentions[line.strip()] = {"positive":0, "negative":0}
 
-with open('Obamacare.csv', 'r') as csvfile:
+with open('NewObamacare.csv', 'r') as csvfile:
     tweetreader = csv.reader(csvfile, delimiter=';')
     pos_neg = {"positive": 0, "negative":0}
     username = {}
