@@ -1,32 +1,29 @@
 from langdetect import detect
 
-def removeLinks(text):
+def removeLinks(text): #(unnecessary)
     t = text.split(" ")
     for i,word in enumerate(t):
         if word.startswith("http") or word.startswith("https"):
             t.pop(i)
     return " ".join(t)
 
-f = open("NewObamacare.csv",'r',encoding="utf8")
-w1 = open("NewObamacareEn.csv",'w',encoding="utf8")
-w2 = open("NewObamacareNotEn.csv",'w',encoding="utf8")
-notEng = 0
-Total = -1 # b/c first line doesn't count
+f = open("NewObamacare.csv",'r',encoding="utf8") # input file
+w1 = open("NewObamacareEn.csv",'w',encoding="utf8") # output for english
+w2 = open("NewObamacareNotEn.csv",'w',encoding="utf8") # output for nonEnglish (optional)
+notEng = 0 # (optional)
+Total = -1 # -1 b/c first line doesn't count (optional)
 for line in f.readlines():
     try:
-        #if Total > 1000:
-        #    break
         text = line.split(";")[4]
         d = detect(text)
-        Total = Total + 1
+        Total = Total + 1 # (optional)
         if d != "en":
-            d = detect(text)
-            notEng = notEng + 1
-            w2.write(line)       
+            notEng = notEng + 1 # Number for statistics (optional)
+            w2.write(line) # output for nonEnglish (optional)
         else:
-            w1.write(line)
+            w1.write(line) #output for English
     except KeyboardInterrupt:
         break
     except:
         print("Error with "+line)
-print("Not English: "+str(notEng)+" Total: "+str(Total))
+print("Not English: "+str(notEng)+" Total: "+str(Total)) # (optional)
