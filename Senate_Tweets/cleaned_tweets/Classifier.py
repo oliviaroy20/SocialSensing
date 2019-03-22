@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import ComplementNB
 import os
-#from langdetect import detect
+from langdetect import detect
 #could not import ComplementNB
 
 text = []
@@ -39,7 +39,14 @@ for filename in os.listdir("."):
     with open(filename,'r') as f:
         csv_reader = csv.reader(f, delimiter=";")
         for row in csv_reader:
-            text_test.append(row[4])
+            try:
+                d = detect(row[4])
+
+                if d == "en":
+                    text_test.append(row[4])
+            except:
+                continue
+    
     X_new_counts = count_vect.transform(text_test)
     X_new_tfidf = tf_transformer.transform(X_new_counts)
 
