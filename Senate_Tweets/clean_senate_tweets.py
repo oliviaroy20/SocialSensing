@@ -2,7 +2,7 @@
 
 if __name__ == '__main__':
 	# files = ['JerryMoran.csv', 'LindseyGraham.csv', 'LisaMurkowski.csv', 'RandPaul.csv', 'SenatorCollins.csv', 'SenBobCorker.csv', 'SenDeanHeller.csv', 'SenMikeLee.csv', 'TomCotton.csv']
-	files = ['SenGaryPeters.csv', 'SenShelby.csv']
+	files = ['SenDanSullivan.csv', 'SenatorBurr.csv', 'SenatorTester.csv']
 	for file in files:
 		with open(file, 'r') as f:
 			file_write = open("cleaned_tweets/" + file[:-4]+"_cleaned.csv", 'w')
