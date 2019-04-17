@@ -6,6 +6,7 @@ import random
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB, ComplementNB
+from sklearn.neural_network import MLPClassifier
 from sklearn.svm import LinearSVC
 #could not import ComplementNB
 
@@ -39,11 +40,12 @@ def getsplits(text, classify, sentiment): #everything starts in test and moves i
             sentiment.pop(rand)
     return text_train, text, classify_train, classify, sentiment_train, sentiment
 
-avg = [0, 0, 0, 0]
-avg_predict = [[0,0,0] , [0,0,0], [0,0,0], [0,0,0,0]]
+avg = [0, 0, 0, 0, 0]
+avg_predict = [[0,0,0] , [0,0,0], [0,0,0], [0,0,0,0], [0,0,0]]
 sent_avg = 0
 sent_avg_p = [0,0,0]
-for i in range(100):
+iterations = 20
+for i in range(iterations):
     text = []
     sentiment = []
     classify = []
@@ -52,8 +54,26 @@ for i in range(100):
     with open('NewClassifyObamacare.csv','r') as f:
         csv_reader = csv.reader(f, delimiter=";")
         for row in csv_reader:
-            text.append(row[4])
-            blob = TextBlob(row[4])
+            phrase = row[4]
+            '''
+            name = False
+            newtweet = []
+            for word in phrase:
+                if name:
+                    newtweet.append("USER")
+                    name = False
+                elif word == "@":
+                    name = True
+                elif word == "#":
+                    continue
+                elif "http://" in word or "https://" in word or ".com" in word:
+                    newtweet.append("URL")
+                else:
+                    newtweet.append(word)
+            phrase = ' '.join(newtweet)
+            '''
+            text.append(phrase)
+            blob = TextBlob(phrase)
             sentiment.append(blob.sentiment.polarity)
             classify.append(row[10])
 
@@ -102,8 +122,8 @@ for i in range(100):
 
 
     # Goes through different classifiers and fits/predicts with them
-    models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB"]
-    for i, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB())):
+    models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
+    for i, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
         clf = classifier.fit(X_train_tf, classify_train)
         #clf = classifier.fit(features, classify_train)
 
@@ -123,14 +143,16 @@ for i in range(100):
 
         # print("svm: {}".format(correct[True]/sum(correct)))
         avg[i] += percent
-print("avgMNB: {}".format(avg[0]/100))
+print("avgMNB: {}".format(avg[0]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[0][0]/sum(avg_predict[0]),avg_predict[0][1]/sum(avg_predict[0]),avg_predict[0][2]/sum(avg_predict[0])))
-print("avgBNB: {}".format(avg[1]/100))
+print("avgBNB: {}".format(avg[1]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[1][0]/sum(avg_predict[1]),avg_predict[1][1]/sum(avg_predict[1]),avg_predict[1][2]/sum(avg_predict[1])))
-print("avgSVM: {}".format(avg[2]/100))
+print("avgSVM: {}".format(avg[2]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[2][0]/sum(avg_predict[2]),avg_predict[2][1]/sum(avg_predict[2]),avg_predict[2][2]/sum(avg_predict[2])))
-print("avgCNB: {}".format(avg[3]/100))
+print("avgCNB: {}".format(avg[3]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[3][0]/sum(avg_predict[3]),avg_predict[3][1]/sum(avg_predict[3]),avg_predict[3][2]/sum(avg_predict[3])))
-print("sent avg: {}".format(sent_avg/100))
+print("avgMLP: {}".format(avg[4]/iterations))
+print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[3][0]/sum(avg_predict[4]),avg_predict[4][1]/sum(avg_predict[3]),avg_predict[4][2]/sum(avg_predict[4])))
+print("sent avg: {}".format(sent_avg/iterations))
 print(sent_avg_p)
 print("Anti: {}, Neutral: {}, Pro: {}".format(sent_avg_p[0]/sum(sent_avg_p),sent_avg_p[1]/sum(sent_avg_p), sent_avg_p[2]/sum(sent_avg_p)))

@@ -1,0 +1,600 @@
+amyklobuchar_cleaned.csv
+Pro-Obamacare: 118 --- 27.63%
+Neutral: 4 --- 0.9400000000000001%
+Anti-Obamacare: 305 --- 71.43%
+Errors: 0
+
+BenSasse_cleaned.csv
+Pro-Obamacare: 1027 --- 32.74%
+Neutral: 27 --- 0.86%
+Anti-Obamacare: 2083 --- 66.4%
+Errors: 2
+
+BernieSanders_cleaned.csv
+Pro-Obamacare: 2624 --- 24.03%
+Neutral: 287 --- 2.63%
+Anti-Obamacare: 8009 --- 73.34%
+Errors: 6
+
+BillCassidy_cleaned.csv
+Pro-Obamacare: 2089 --- 69.98%
+Neutral: 14 --- 0.47000000000000003%
+Anti-Obamacare: 882 --- 29.549999999999997%
+Errors: 1
+
+BobCorker_cleaned.csv
+Pro-Obamacare: 13 --- 26.0%
+Neutral: 0 --- 0.0%
+Anti-Obamacare: 37 --- 74.0%
+Errors: 0
+
+brianschatz_cleaned.csv
+Pro-Obamacare: 161 --- 30.320000000000004%
+Neutral: 7 --- 1.32%
+Anti-Obamacare: 363 --- 68.36%
+Errors: 1
+
+ChrisCoons_cleaned.csv
+Pro-Obamacare: 62 --- 33.51%
+Neutral: 3 --- 1.6199999999999999%
+Anti-Obamacare: 120 --- 64.86%
+Errors: 0
+
+ChrisMurphyCT_cleaned.csv
+Pro-Obamacare: 1019 --- 28.720000000000002%
+Neutral: 42 --- 1.18%
+Anti-Obamacare: 2487 --- 70.1%
+Errors: 0
+
+ChrisVanHollen_cleaned.csv
+Pro-Obamacare: 119 --- 31.069999999999997%
+Neutral: 4 --- 1.04%
+Anti-Obamacare: 260 --- 67.89%
+Errors: 1
+
+ChuckGrassley_cleaned.csv
+Pro-Obamacare: 777 --- 37.07%
+Neutral: 23 --- 1.0999999999999999%
+Anti-Obamacare: 1296 --- 61.83%
+Errors: 2
+
+clairecmc_cleaned.csv
+Pro-Obamacare: 161 --- 32.86%
+Neutral: 15 --- 3.06%
+Anti-Obamacare: 314 --- 64.08%
+Errors: 0
+
+CoryBooker_cleaned.csv
+Pro-Obamacare: 422 --- 28.98%
+Neutral: 17 --- 1.17%
+Anti-Obamacare: 1017 --- 69.85%
+Errors: 0
+
+JeffFlake_cleaned.csv
+Pro-Obamacare: 4408 --- 68.10000000000001%
+Neutral: 37 --- 0.5700000000000001%
+Anti-Obamacare: 2028 --- 31.330000000000002%
+Errors: 4
+
+JerryMoran_cleaned.csv
+Pro-Obamacare: 1261 --- 34.44%
+Neutral: 34 --- 0.9299999999999999%
+Anti-Obamacare: 2366 --- 64.63%
+Errors: 2
+
+jiminhofe_cleaned.csv
+Pro-Obamacare: 94 --- 37.75%
+Neutral: 8 --- 3.2099999999999995%
+Anti-Obamacare: 147 --- 59.040000000000006%
+Errors: 0
+
+JohnBoozman_cleaned.csv
+Pro-Obamacare: 274 --- 40.23%
+Neutral: 4 --- 0.59%
+Anti-Obamacare: 403 --- 59.18%
+Errors: 0
+
+JohnCornyn_cleaned.csv
+Pro-Obamacare: 2087 --- 31.240000000000002%
+Neutral: 61 --- 0.91%
+Anti-Obamacare: 4533 --- 67.85%
+Errors: 1
+
+LindseyGrahamSC_cleaned.csv
+Pro-Obamacare: 990 --- 32.31%
+Neutral: 9 --- 0.29%
+Anti-Obamacare: 2065 --- 67.4%
+Errors: 2
+
+lisamurkowski_cleaned.csv
+Pro-Obamacare: 6432 --- 60.5%
+Neutral: 41 --- 0.38999999999999996%
+Anti-Obamacare: 4158 --- 39.11%
+Errors: 0
+
+marcorubio_cleaned.csv
+Pro-Obamacare: 2449 --- 32.81%
+Neutral: 82 --- 1.0999999999999999%
+Anti-Obamacare: 4934 --- 66.10000000000001%
+Errors: 2
+
+MarkWarner_cleaned.csv
+Pro-Obamacare: 202 --- 28.21%
+Neutral: 10 --- 1.4000000000000001%
+Anti-Obamacare: 504 --- 70.39%
+Errors: 0
+
+MartinHeinrich_cleaned.csv
+Pro-Obamacare: 81 --- 30.34%
+Neutral: 5 --- 1.87%
+Anti-Obamacare: 181 --- 67.78999999999999%
+Errors: 0
+
+maziehirono_cleaned.csv
+Pro-Obamacare: 25 --- 19.689999999999998%
+Neutral: 4 --- 3.15%
+Anti-Obamacare: 98 --- 77.17%
+Errors: 0
+
+MikeCrapo_cleaned.csv
+Pro-Obamacare: 120 --- 46.150000000000006%
+Neutral: 4 --- 1.54%
+Anti-Obamacare: 136 --- 52.31%
+Errors: 0
+
+PattyMurray_cleaned.csv
+Pro-Obamacare: 321 --- 25.82%
+Neutral: 7 --- 0.5599999999999999%
+Anti-Obamacare: 915 --- 73.61%
+Errors: 3
+
+RandPaul_cleaned.csv
+Pro-Obamacare: 5122 --- 28.59%
+Neutral: 336 --- 1.8800000000000001%
+Anti-Obamacare: 12458 --- 69.54%
+Errors: 18
+
+RonWyden_cleaned.csv
+Pro-Obamacare: 186 --- 25.8%
+Neutral: 7 --- 0.97%
+Anti-Obamacare: 528 --- 73.22999999999999%
+Errors: 0
+
+RoyBlunt_cleaned.csv
+Pro-Obamacare: 520 --- 40.19%
+Neutral: 9 --- 0.7000000000000001%
+Anti-Obamacare: 765 --- 59.12%
+Errors: 1
+
+SenAlexander_cleaned.csv
+Pro-Obamacare: 563 --- 39.290000000000006%
+Neutral: 13 --- 0.91%
+Anti-Obamacare: 857 --- 59.8%
+Errors: 2
+
+SenAngusKing_cleaned.csv
+Pro-Obamacare: 82 --- 39.81%
+Neutral: 5 --- 2.4299999999999997%
+Anti-Obamacare: 119 --- 57.769999999999996%
+Errors: 1
+
+SenateMajLdr_cleaned.csv
+Pro-Obamacare: 7554 --- 26.99%
+Neutral: 279 --- 1.0%
+Anti-Obamacare: 20153 --- 72.00999999999999%
+Errors: 11
+
+SenatorBaldwin_cleaned.csv
+Pro-Obamacare: 133 --- 32.6%
+Neutral: 5 --- 1.23%
+Anti-Obamacare: 270 --- 66.18%
+Errors: 0
+
+SenatorBurr_cleaned.csv
+Pro-Obamacare: 596 --- 46.379999999999995%
+Neutral: 23 --- 1.79%
+Anti-Obamacare: 666 --- 51.83%
+Errors: 2
+
+SenatorCantwell_cleaned.csv
+Pro-Obamacare: 170 --- 28.15%
+Neutral: 8 --- 1.32%
+Anti-Obamacare: 426 --- 70.53%
+Errors: 1
+
+SenatorCardin_cleaned.csv
+Pro-Obamacare: 102 --- 29.48%
+Neutral: 5 --- 1.4500000000000002%
+Anti-Obamacare: 239 --- 69.08%
+Errors: 1
+
+SenatorCarper_cleaned.csv
+Pro-Obamacare: 55 --- 35.03%
+Neutral: 4 --- 2.55%
+Anti-Obamacare: 98 --- 62.419999999999995%
+Errors: 0
+
+SenatorCollins_cleaned.csv
+Pro-Obamacare: 3815 --- 41.92%
+Neutral: 76 --- 0.84%
+Anti-Obamacare: 5210 --- 57.25%
+Errors: 3
+
+SenatorDurbin_cleaned.csv
+Pro-Obamacare: 317 --- 28.249999999999996%
+Neutral: 8 --- 0.7100000000000001%
+Anti-Obamacare: 797 --- 71.03%
+Errors: 0
+
+SenatorEnzi_cleaned.csv
+Pro-Obamacare: 94 --- 36.43%
+Neutral: 6 --- 2.33%
+Anti-Obamacare: 158 --- 61.24000000000001%
+Errors: 2
+
+SenatorFischer_cleaned.csv
+Pro-Obamacare: 170 --- 40.38%
+Neutral: 2 --- 0.48%
+Anti-Obamacare: 249 --- 59.14%
+Errors: 0
+
+SenatorHassan_cleaned.csv
+Pro-Obamacare: 63 --- 29.03%
+Neutral: 3 --- 1.38%
+Anti-Obamacare: 151 --- 69.59%
+Errors: 0
+
+SenatorHeitkamp_cleaned.csv
+Pro-Obamacare: 102 --- 33.77%
+Neutral: 6 --- 1.9900000000000002%
+Anti-Obamacare: 194 --- 64.24%
+Errors: 2
+
+SenatorIsakson_cleaned.csv
+Pro-Obamacare: 296 --- 40.33%
+Neutral: 8 --- 1.09%
+Anti-Obamacare: 430 --- 58.58%
+Errors: 2
+
+SenatorLankford_cleaned.csv
+Pro-Obamacare: 356 --- 32.54%
+Neutral: 13 --- 1.1900000000000002%
+Anti-Obamacare: 725 --- 66.27%
+Errors: 0
+
+SenatorLeahy_cleaned.csv
+Pro-Obamacare: 31 --- 31.0%
+Neutral: 0 --- 0.0%
+Anti-Obamacare: 69 --- 69.0%
+Errors: 0
+
+SenatorMenendez_cleaned.csv
+Pro-Obamacare: 115 --- 27.71%
+Neutral: 10 --- 2.41%
+Anti-Obamacare: 290 --- 69.88%
+Errors: 0
+
+SenatorRisch_cleaned.csv
+Pro-Obamacare: 74 --- 43.269999999999996%
+Neutral: 2 --- 1.17%
+Anti-Obamacare: 95 --- 55.559999999999995%
+Errors: 0
+
+SenatorRounds_cleaned.csv
+Pro-Obamacare: 79 --- 34.8%
+Neutral: 3 --- 1.32%
+Anti-Obamacare: 145 --- 63.88%
+Errors: 2
+
+SenatorShaheen_cleaned.csv
+Pro-Obamacare: 66 --- 32.84%
+Neutral: 4 --- 1.9900000000000002%
+Anti-Obamacare: 131 --- 65.16999999999999%
+Errors: 0
+
+SenatorStrange_cleaned.csv
+Pro-Obamacare: 242 --- 34.57%
+Neutral: 4 --- 0.5700000000000001%
+Anti-Obamacare: 454 --- 64.86%
+Errors: 0
+
+SenatorTester_cleaned.csv
+Pro-Obamacare: 53 --- 30.11%
+Neutral: 13 --- 7.39%
+Anti-Obamacare: 110 --- 62.5%
+Errors: 0
+
+SenatorTimScott_cleaned.csv
+Pro-Obamacare: 269 --- 35.63%
+Neutral: 8 --- 1.06%
+Anti-Obamacare: 478 --- 63.31%
+Errors: 1
+
+SenatorTomUdall_cleaned.csv
+Pro-Obamacare: 26 --- 19.85%
+Neutral: 1 --- 0.76%
+Anti-Obamacare: 104 --- 79.39%
+Errors: 0
+
+SenatorWicker_cleaned.csv
+Pro-Obamacare: 98 --- 33.45%
+Neutral: 2 --- 0.6799999999999999%
+Anti-Obamacare: 193 --- 65.86999999999999%
+Errors: 0
+
+SenBennetCO_cleaned.csv
+Pro-Obamacare: 171 --- 33.53%
+Neutral: 5 --- 0.98%
+Anti-Obamacare: 334 --- 65.49000000000001%
+Errors: 3
+
+SenBillNelson_cleaned.csv
+Pro-Obamacare: 150 --- 30.18%
+Neutral: 6 --- 1.21%
+Anti-Obamacare: 341 --- 68.61%
+Errors: 0
+
+SenBlumenthal_cleaned.csv
+Pro-Obamacare: 170 --- 28.189999999999998%
+Neutral: 9 --- 1.49%
+Anti-Obamacare: 424 --- 70.32000000000001%
+Errors: 0
+
+SenBobCasey_cleaned.csv
+Pro-Obamacare: 459 --- 29.98%
+Neutral: 21 --- 1.37%
+Anti-Obamacare: 1051 --- 68.65%
+Errors: 4
+
+SenCapito_cleaned.csv
+Pro-Obamacare: 6876 --- 59.85%
+Neutral: 46 --- 0.4%
+Anti-Obamacare: 4566 --- 39.75%
+Errors: 0
+
+SenCortezMasto_cleaned.csv
+Pro-Obamacare: 66 --- 40.0%
+Neutral: 4 --- 2.42%
+Anti-Obamacare: 95 --- 57.58%
+Errors: 0
+
+SenCoryGardner_cleaned.csv
+Pro-Obamacare: 3529 --- 59.709999999999994%
+Neutral: 26 --- 0.44%
+Anti-Obamacare: 2355 --- 39.85%
+Errors: 0
+
+SenDanSullivan_cleaned.csv
+Pro-Obamacare: 576 --- 53.779999999999994%
+Neutral: 9 --- 0.84%
+Anti-Obamacare: 486 --- 45.379999999999995%
+Errors: 0
+
+SenDavidPerdue_cleaned.csv
+Pro-Obamacare: 269 --- 35.91%
+Neutral: 4 --- 0.53%
+Anti-Obamacare: 476 --- 63.55%
+Errors: 1
+
+SenDeanHeller_cleaned.csv
+Pro-Obamacare: 6660 --- 72.89999999999999%
+Neutral: 34 --- 0.37%
+Anti-Obamacare: 2442 --- 26.729999999999997%
+Errors: 0
+
+SenDonnelly_cleaned.csv
+Pro-Obamacare: 126 --- 31.819999999999997%
+Neutral: 4 --- 1.01%
+Anti-Obamacare: 266 --- 67.17%
+Errors: 0
+
+SenDuckworth_cleaned.csv
+Pro-Obamacare: 97 --- 27.950000000000003%
+Neutral: 6 --- 1.73%
+Anti-Obamacare: 244 --- 70.32000000000001%
+Errors: 0
+
+SenFeinstein_cleaned.csv
+Pro-Obamacare: 667 --- 29.060000000000002%
+Neutral: 23 --- 1.0%
+Anti-Obamacare: 1605 --- 69.93%
+Errors: 0
+
+SenFranken_cleaned.csv
+Pro-Obamacare: 204 --- 25.95%
+Neutral: 5 --- 0.64%
+Anti-Obamacare: 577 --- 73.41%
+Errors: 3
+
+SenGaryPeters_cleaned.csv
+Pro-Obamacare: 72 --- 30.64%
+Neutral: 3 --- 1.28%
+Anti-Obamacare: 160 --- 68.08999999999999%
+Errors: 1
+
+SenGillibrand_cleaned.csv
+Pro-Obamacare: 396 --- 31.130000000000003%
+Neutral: 7 --- 0.5499999999999999%
+Anti-Obamacare: 869 --- 68.32000000000001%
+Errors: 1
+
+SenJackReed_cleaned.csv
+Pro-Obamacare: 41 --- 27.52%
+Neutral: 4 --- 2.68%
+Anti-Obamacare: 104 --- 69.8%
+Errors: 0
+
+SenJeffMerkley_cleaned.csv
+Pro-Obamacare: 232 --- 10.530000000000001%
+Neutral: 3 --- 0.13999999999999999%
+Anti-Obamacare: 1969 --- 89.34%
+Errors: 1
+
+SenJohnBarrasso_cleaned.csv
+Pro-Obamacare: 139 --- 33.900000000000006%
+Neutral: 12 --- 2.93%
+Anti-Obamacare: 259 --- 63.17%
+Errors: 0
+
+SenJohnHoeven_cleaned.csv
+Pro-Obamacare: 100 --- 59.88%
+Neutral: 4 --- 2.4%
+Anti-Obamacare: 63 --- 37.72%
+Errors: 0
+
+SenJohnKennedy_cleaned.csv
+Pro-Obamacare: 165 --- 45.08%
+Neutral: 3 --- 0.8200000000000001%
+Anti-Obamacare: 198 --- 54.1%
+Errors: 0
+
+SenJohnMcCain_cleaned.csv
+Pro-Obamacare: 4106 --- 29.15%
+Neutral: 72 --- 0.51%
+Anti-Obamacare: 9906 --- 70.34%
+Errors: 11
+
+SenJohnThune_cleaned.csv
+Pro-Obamacare: 165 --- 32.87%
+Neutral: 11 --- 2.19%
+Anti-Obamacare: 326 --- 64.94%
+Errors: 1
+
+SenJoniErnst_cleaned.csv
+Pro-Obamacare: 358 --- 49.04%
+Neutral: 10 --- 1.37%
+Anti-Obamacare: 362 --- 49.59%
+Errors: 1
+
+SenKamalaHarris_cleaned.csv
+Pro-Obamacare: 80 --- 26.939999999999998%
+Neutral: 3 --- 1.01%
+Anti-Obamacare: 214 --- 72.05%
+Errors: 0
+
+senmarkey_cleaned.csv
+Pro-Obamacare: 123 --- 33.15%
+Neutral: 4 --- 1.08%
+Anti-Obamacare: 244 --- 65.77%
+Errors: 0
+
+SenMikeLee_cleaned.csv
+Pro-Obamacare: 1191 --- 23.29%
+Neutral: 37 --- 0.72%
+Anti-Obamacare: 3886 --- 75.99000000000001%
+Errors: 2
+
+SenOrrinHatch_cleaned.csv
+Pro-Obamacare: 285 --- 34.089999999999996%
+Neutral: 6 --- 0.72%
+Anti-Obamacare: 545 --- 65.19%
+Errors: 0
+
+SenPatRoberts_cleaned.csv
+Pro-Obamacare: 152 --- 44.57%
+Neutral: 6 --- 1.76%
+Anti-Obamacare: 183 --- 53.669999999999995%
+Errors: 1
+
+SenRobPortman_cleaned.csv
+Pro-Obamacare: 6246 --- 57.29%
+Neutral: 40 --- 0.37%
+Anti-Obamacare: 4617 --- 42.35%
+Errors: 2
+
+SenRonJohnson_cleaned.csv
+Pro-Obamacare: 935 --- 64.53%
+Neutral: 10 --- 0.69%
+Anti-Obamacare: 504 --- 34.78%
+Errors: 0
+
+SenSchumer_cleaned.csv
+Pro-Obamacare: 1537 --- 18.66%
+Neutral: 76 --- 0.9199999999999999%
+Anti-Obamacare: 6625 --- 80.42%
+Errors: 5
+
+SenShelby_cleaned.csv
+Pro-Obamacare: 253 --- 42.52%
+Neutral: 12 --- 2.02%
+Anti-Obamacare: 330 --- 55.46%
+Errors: 1
+
+SenSherrodBrown_cleaned.csv
+Pro-Obamacare: 282 --- 38.16%
+Neutral: 9 --- 1.22%
+Anti-Obamacare: 448 --- 60.62%
+Errors: 1
+
+SenStabenow_cleaned.csv
+Pro-Obamacare: 123 --- 25.2%
+Neutral: 6 --- 1.23%
+Anti-Obamacare: 359 --- 73.57000000000001%
+Errors: 1
+
+SenTedCruz_cleaned.csv
+Pro-Obamacare: 1034 --- 26.529999999999998%
+Neutral: 36 --- 0.9199999999999999%
+Anti-Obamacare: 2828 --- 72.55%
+Errors: 2
+
+SenThadCochran_cleaned.csv
+Pro-Obamacare: 50 --- 29.07%
+Neutral: 2 --- 1.16%
+Anti-Obamacare: 120 --- 69.77%
+Errors: 0
+
+SenThomTillis_cleaned.csv
+Pro-Obamacare: 630 --- 52.28%
+Neutral: 15 --- 1.24%
+Anti-Obamacare: 560 --- 46.47%
+Errors: 0
+
+SenToddYoung_cleaned.csv
+Pro-Obamacare: 355 --- 37.769999999999996%
+Neutral: 8 --- 0.8500000000000001%
+Anti-Obamacare: 577 --- 61.38%
+Errors: 3
+
+SenTomCotton_cleaned.csv
+Pro-Obamacare: 221 --- 39.050000000000004%
+Neutral: 7 --- 1.24%
+Anti-Obamacare: 338 --- 59.72%
+Errors: 0
+
+SenToomey_cleaned.csv
+Pro-Obamacare: 2168 --- 43.3%
+Neutral: 39 --- 0.7799999999999999%
+Anti-Obamacare: 2800 --- 55.92%
+Errors: 2
+
+SenWarren_cleaned.csv
+Pro-Obamacare: 1168 --- 18.0%
+Neutral: 42 --- 0.65%
+Anti-Obamacare: 5280 --- 81.36%
+Errors: 2
+
+SenWhitehouse_cleaned.csv
+Pro-Obamacare: 26 --- 27.66%
+Neutral: 1 --- 1.06%
+Anti-Obamacare: 67 --- 71.28%
+Errors: 0
+
+Sen_JoeManchin_cleaned.csv
+Pro-Obamacare: 204 --- 27.83%
+Neutral: 7 --- 0.95%
+Anti-Obamacare: 522 --- 71.21%
+Errors: 1
+
+SteveDaines_cleaned.csv
+Pro-Obamacare: 182 --- 38.72%
+Neutral: 4 --- 0.8500000000000001%
+Anti-Obamacare: 284 --- 60.42999999999999%
+Errors: 0
+
+timkaine_cleaned.csv
+Pro-Obamacare: 714 --- 25.95%
+Neutral: 20 --- 0.73%
+Anti-Obamacare: 2017 --- 73.32%
+Errors: 0
+
