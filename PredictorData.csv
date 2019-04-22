@@ -1,4 +1,3 @@
-Name,Party,Vote,StatePop,Pro,Anti,Tweets
 Amy Klobuchar,D,0,5568155,27.63,71.43,435
 Ben Sasse,R,1,1917575,32.74,66.4,3197
 Bernie Sanders,I,0,624525,24.03,73.34,11123
@@ -39,16 +38,16 @@ Susan Collins,R,0,1335063,41.92,57.25,9264
 Dick Durbin,D,0,12786196,28.249,71.03,1147
 Mike Enzi,R,1,578934,36.43,61.24,271
 Deb Fischer,R,1,1917575,40.38,59.14,433
-Maggie Hassan,D,0,1349767,29.03,69.59
-Heidi Heitkamp,D,0,755176,33.77,64.24
-Johnny Isakson,R,1,10413055,40.33,58.58
-James Lankford,R,1,3932640,32.54,66.27
-Patrick Leahy,D,0,624525,31,69
-Bob Menendez,D,0,8888543,27.71,69.88
-James Risch,R,1,1718904,43.27,55.56
-Mike Rounds,R,1,873286,34.8,63.88
-Jeanne Shaheen,D,0,1349767,32.84,65.17
-Luther Strange,R,1,4875120,34.57,64.86
+Maggie Hassan,D,0,1349767,29.03,69.59,220
+Heidi Heitkamp,D,0,755176,33.77,64.24,310
+Johnny Isakson,R,1,10413055,40.33,58.58,756
+James Lankford,R,1,3932640,32.54,66.27,1111
+Patrick Leahy,D,0,624525,31,69,101
+Bob Menendez,D,0,8888543,27.71,69.88,434
+James Risch,R,1,1718904,43.27,55.56,178
+Mike Rounds,R,1,873286,34.8,63.88,230
+Jeanne Shaheen,D,0,1349767,32.84,65.17,206
+Luther Strange,R,1,4875120,34.57,64.86,726
 Jon Tester,D,0,1053090,30.11,62.5,181
 Tim Scott,R,1,5021219,35.63,63.31,776
 Tom Udall,D,0,2093395,19.85,79.39,135
