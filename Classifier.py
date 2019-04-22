@@ -123,7 +123,7 @@ for i in range(iterations):
 
     # Goes through different classifiers and fits/predicts with them
     models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
-    for i, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
+    for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
         clf = classifier.fit(X_train_tf, classify_train)
         #clf = classifier.fit(features, classify_train)
 
@@ -134,7 +134,7 @@ for i in range(iterations):
         for doc, category in zip(classify_test, predicted):
             correct[str(doc)==str(category)] += 1
             try:
-                avg_predict[i][int(category)+1] += 1
+                avg_predict[j][int(category)+1] += 1
             except:
                 continue
 
@@ -142,7 +142,7 @@ for i in range(iterations):
         percent = correct[True]/ sum(correct)
 
         # print("svm: {}".format(correct[True]/sum(correct)))
-        avg[i] += percent
+        avg[j] += percent
 print("avgMNB: {}".format(avg[0]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[0][0]/sum(avg_predict[0]),avg_predict[0][1]/sum(avg_predict[0]),avg_predict[0][2]/sum(avg_predict[0])))
 print("avgBNB: {}".format(avg[1]/iterations))
