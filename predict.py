@@ -17,6 +17,7 @@ if __name__ == '__main__':
 		if senator["party"] == "R":
 			if(senator["proObamacare"] > 55 ):
 				print("Republican voting Nay")
+				print(senator["name"])
 		else: #democratic
 			if(senator["antiObamacare"] > 85 ):
 				print("Democrat voting Yay")
