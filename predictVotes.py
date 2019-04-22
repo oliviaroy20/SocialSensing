@@ -17,7 +17,7 @@ def getsplits(data): #everything starts in test and moves into the training sets
     test_data = list()
     test_class = list()
     looked = list()
-    switched = 5
+    switched = 4
     dems = 10
     repub = 10
     total = 0
@@ -48,7 +48,7 @@ def getsplits(data): #everything starts in test and moves into the training sets
     return train_data, train_class, test_data, test_class
 
 iterations = 20
-models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
+models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier", "DecisionTree"]
 for i in range(iterations):
     # Open supervised classification file
     with open('PredictorData.csv','r') as f:
@@ -71,7 +71,7 @@ for i in range(iterations):
 
 
     # Goes through different classifiers and fits/predicts with them
-    for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
+    for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier(), DecisionTreeClassifier())):
         clf = classifier.fit(train_data, train_class)
 
         predicted = clf.predict(test_data)
