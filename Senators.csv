@@ -1,8 +1,8 @@
-Alabama;Shelby, Richard;SenShelby		
-Alabama;Jomes, Doug;SenDougJones		
+Alabama;Shelby, Richard;SenShelby
+Alabama;Strange, Luther;SenatorStrange
 Alaska;Murkowski, Lisa;lisamurkowski
 Alaska;Sullivan, Dan;SenDanSullivan
-Arizona;Kyl, Jon;SenJonKyl
+Arizona;McCain, John;SenJohnMcCain
 Arizona;Flake, Jeff;JeffFlake
 Arkansas;Cotton, Tom;SenTomCotton
 Arkansas;Boozman, John;JohnBoozman
@@ -10,14 +10,14 @@ California;Feinstein, Dianne;SenFeinstein
 California;Harris, Kamala;SenKamalaHarris
 Colorado;Bennet, Michael;SenBennetCO
 Colorado;Gardner, Cory;SenCoryGardner
-Connecticut;Murphy, Christopher;ChrisMurphyCT		
+Connecticut;Murphy, Christopher;ChrisMurphyCT
 Connecticut;Blumenthal, Richard;SenBlumenthal
 Delaware;Carper, Tom;SenatorCarper
 Delaware;Coons, Chris;ChrisCoons
 Florida;Nelson, Bill;SenBillNelson
 Florida;Rubio, Marco;marcorubio
 Georgia;Perdue, David;SenDavidPerdue
-Georgia;Isakson, Johnny;SenatorIsakson	
+Georgia;Isakson, Johnny;SenatorIsakson
 Hawaii;Schatz, Brian;brianschatz
 Hawaii;Hirono, Mazie;maziehirono
 Idaho;Crapo, Mike;MikeCrapo
@@ -30,7 +30,7 @@ Iowa;Grassley, Chuck;ChuckGrassley
 Iowa;Ernst, Joni	joniernst;SenJoniErnst
 Kansas;Roberts, Pat;SenPatRoberts
 Kansas;Moran, Jerry;JerryMoran
-Kentucky;McConnell, Mitch;SenateMajLdr	
+Kentucky;McConnell, Mitch;SenateMajLdr
 Kentucky;Paul, Rand;RandPaul
 Louisiana;Cassidy, Bill;BillCassidy
 Louisiana;Kennedy, John;SenJohnKennedy
@@ -43,8 +43,8 @@ Massachusetts;Warren, Elizabeth;SenWarren
 Michigan;Peters, Gary;SenGaryPeters
 Michigan;Stabenow, Debbie;SenStabenow
 Minnesota;Klobuchar, Amy;amyklobuchar
-Minnesota;Smith, Tina;SenTinaSmith
-Mississippi;Hyde-Smith, Cindy;SenHydeSmith
+Minnesota;Franken, Al;SenFranken
+Mississippi;Cochran, Thad;SenThadCochran
 Mississippi;Wicker, Roger;SenatorWicker
 Missouri;McCaskill, Claire;clairecmc
 Missouri;Blunt, Roy;RoyBlunt
@@ -87,7 +87,7 @@ Texas;Cruz, Ted;SenTedCruz
 Utah;Hatch, Orrin;SenOrrinHatch
 Utah;Lee, Mike;SenMikeLee
 Vermont;Leahy, Patrick;SenatorLeahy
-Vermont;Sanders, Bernie;SenatorSanders
+Vermont;Sanders, Bernie;BernieSanders
 Virginia;Kaine, Tim;timkaine
 Virginia;Warner, Mark;MarkWarner
 Washington;Murray, Patty;PattyMurray

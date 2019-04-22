@@ -66,7 +66,7 @@ data = [go.Choropleth(
 
 layout = go.Layout(
     title = go.layout.Title(
-        text = 'Tweets by State to Senator in July 2017 about Obamacare/Healthcare<br>(Hover for breakdown)'
+        text = 'Tweets by State to Senator in July 2017 about Obamacare/Healthcare<br>Without Republicans who voted Nay<br>(Hover for breakdown)'
     ),
     geo = go.layout.Geo(
         scope = 'usa',
@@ -76,4 +76,4 @@ layout = go.Layout(
 )
 
 fig = go.Figure(data = data, layout = layout)
-plotly.offline.plot(fig, filename="TweetsMapwithoutNayR.html")
+plotly.offline.plot(fig, filename="TweetsMapwithoutNayRAvg.html")
