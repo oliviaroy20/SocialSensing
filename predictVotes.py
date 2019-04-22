@@ -48,6 +48,7 @@ def getsplits(data): #everything starts in test and moves into the training sets
     return train_data, train_class, test_data, test_class
 
 iterations = 20
+models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
 for i in range(iterations):
     # Open supervised classification file
     with open('PredictorData.csv','r') as f:
@@ -62,15 +63,14 @@ for i in range(iterations):
                 else:
                     compiled.append(d)
             compiled.append(density)
-            compilted.append(row[2])
+            compiled.append(row[2])
             data.append(compiled)
 
 
-    train_data, test_data, train_class, test_class = get_splits(data)
+    train_data, train_class, test_data, test_class = get_splits(data)
 
 
     # Goes through different classifiers and fits/predicts with them
-    models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
     for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
         clf = classifier.fit(train_data, train_class)
 
@@ -89,6 +89,11 @@ for i in range(iterations):
 
         # print("svm: {}".format(correct[True]/sum(correct)))
         avg[j] += percent
+
+for i,model in enuerate(models):
+    print(model + ": {}".format(avg[i]/iterations))
+    print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[i][0]/sum(avg_predict[i]), avg_predict[i][1]/sum(avg_predict[i]), avg_predict[i][2]/sum(avg_predict[i])))
+'''
 print("avgMNB: {}".format(avg[0]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[0][0]/sum(avg_predict[0]),avg_predict[0][1]/sum(avg_predict[0]),avg_predict[0][2]/sum(avg_predict[0])))
 print("avgBNB: {}".format(avg[1]/iterations))
@@ -102,3 +107,4 @@ print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[3][0]/sum(avg_predict[
 print("sent avg: {}".format(sent_avg/iterations))
 print(sent_avg_p)
 print("Anti: {}, Neutral: {}, Pro: {}".format(sent_avg_p[0]/sum(sent_avg_p),sent_avg_p[1]/sum(sent_avg_p), sent_avg_p[2]/sum(sent_avg_p)))
+'''
