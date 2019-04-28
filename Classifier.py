@@ -8,6 +8,9 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB, ComplementNB
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import LinearSVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from sklearn import svm
 #could not import ComplementNB
 
 
@@ -40,8 +43,13 @@ def getsplits(text, classify, sentiment): #everything starts in test and moves i
             sentiment.pop(rand)
     return text_train, text, classify_train, classify, sentiment_train, sentiment
 
-avg = [0, 0, 0, 0, 0]
-avg_predict = [[0,0,0] , [0,0,0], [0,0,0], [0,0,0,0], [0,0,0]]
+
+models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier", "DecisionTree", "RandomForest", "ExtraTrees", "svm"]
+avg =[]
+avg_predict =[]
+for m in models:
+    avg.append(0)
+    avg_predict.append([0,0,0])
 sent_avg = 0
 sent_avg_p = [0,0,0]
 iterations = 20
@@ -122,8 +130,7 @@ for i in range(iterations):
 
 
     # Goes through different classifiers and fits/predicts with them
-    models = ["MultinomialNB", "BernoulliNB", "LinearSVC", "ComplementNB", "MLPClassifier"]
-    for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier())):
+    for j, classifier in enumerate((MultinomialNB(), BernoulliNB(), LinearSVC(), ComplementNB(), MLPClassifier(), DecisionTreeClassifier(), RandomForestClassifier(), ExtraTreesClassifier(), svm.SVC(gamma='scale'))):
         clf = classifier.fit(X_train_tf, classify_train)
         #clf = classifier.fit(features, classify_train)
 
@@ -143,6 +150,11 @@ for i in range(iterations):
 
         # print("svm: {}".format(correct[True]/sum(correct)))
         avg[j] += percent
+for i, model in enumerate(models):
+    print(model + ": {}".format(avg[i]/iterations))
+    print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[i][0]/sum(avg_predict[i]),avg_predict[i][1]/sum(avg_predict[i]),avg_predict[i][2]/sum(avg_predict[i])))
+
+'''
 print("avgMNB: {}".format(avg[0]/iterations))
 print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[0][0]/sum(avg_predict[0]),avg_predict[0][1]/sum(avg_predict[0]),avg_predict[0][2]/sum(avg_predict[0])))
 print("avgBNB: {}".format(avg[1]/iterations))
@@ -156,3 +168,4 @@ print("Anti: {}, Neutral: {}, Pro: {}".format(avg_predict[3][0]/sum(avg_predict[
 print("sent avg: {}".format(sent_avg/iterations))
 print(sent_avg_p)
 print("Anti: {}, Neutral: {}, Pro: {}".format(sent_avg_p[0]/sum(sent_avg_p),sent_avg_p[1]/sum(sent_avg_p), sent_avg_p[2]/sum(sent_avg_p)))
+'''
