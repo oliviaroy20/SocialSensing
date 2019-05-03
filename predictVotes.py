@@ -27,7 +27,7 @@ def get_splits(data): #everything starts in test and moves into the training set
     while len(looked) < len(data):
         rand = random.randint(0, len(data)-1)
         curr = data[rand]
-        '''
+        
         if rand in looked:
             continue
         elif len(train_data) < 25:
@@ -60,10 +60,11 @@ def get_splits(data): #everything starts in test and moves into the training set
             test_data.append(curr[1:-1])
             test_class.append(curr[-1])
             looked.append(rand)
+        '''
     return train_data, train_class, test_data, test_class
 
-#def findPerson(party, against, pro, ratio, data):
-def findPerson( against, pro, ratio, data):
+def findPerson(party, against, pro, ratio, data):
+#def findPerson( against, pro, ratio, data):
     for row in data:
         #if row[1] == party and row[2] == against and row[3] == pro and row[4] == ratio:
         if row[2] == against and row[3] == pro and row[4] == ratio:
@@ -110,8 +111,8 @@ with open('PredictorData.csv','r') as f:
         compiled.append(density)
         compiled.append(row[2])
         data.append(compiled)
-#col = ["party", "anti", "pro", "density"]
-col = [ "anti", "pro", "density"]
+col = ["party", "anti", "pro", "density"]
+#col = [ "anti", "pro", "density"]
 avg = []
 guesses = []
 for m in models:
@@ -133,8 +134,8 @@ for i in range(iterations):
         predicted = clf.predict(test_data)
         correct = [0,0]
         for index, row in enumerate(test_data_array):
-            #sen = findPerson(row[0], row[1], row[2],row[3], names)
-            sen = findPerson(row[0], row[1], row[2],names)
+            sen = findPerson(row[0], row[1], row[2],row[3], names)
+            #sen = findPerson(row[0], row[1], row[2],names)
             vote_record[sen][j][int(predicted[index])] += 1
         for doc, category in zip(test_class, predicted):
             correct[str(doc)==str(category)] += 1
@@ -161,10 +162,11 @@ for i,model in enumerate(models):
         if vote_num != int(actualVote):
             not_predicted.append(sen)
     print(str(voted[1]) + " yeas and " + str(voted[0]) + " nays")
-    #print(not_predicted)
+    print(not_predicted)
 
 record = [0,0]
 right = 0
+wrong_people = []
 for sen in vote_record.keys():
     vote = 0
     for i, model in enumerate(models):
@@ -180,14 +182,17 @@ for sen in vote_record.keys():
     if vote > 0:
         if actualVote == 1:
             right += 1
-        #else:
+        else:
+            wrong_people.append(sen)
             #print(sen)
         record[1] += 1
     else:
         if actualVote == 0:
             right += 1
-        #else:
+        else:
+            wrong_people.append(sen)
             #print(sen)
         record[0] += 1
 print("Custom Ensemble: " + str(right/len(vote_record.keys())))
 print(str(record[1]) + " yeas " + str(record[0]) + " nays")
+print(wrong_people)
