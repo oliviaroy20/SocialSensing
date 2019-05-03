@@ -31,8 +31,8 @@ d = ['dc', 'MS', 'OK','DE', 'MN', 'IL', 'AR',
     'CO', 'NJ', 'WA', 'NC', 'NY', 'TX', 'NV', 'ME']
 s = [0] * 51
 
-# nay=["SenatorCollins", "SenBobCorker", "TomCotton", "LindseyGraham", "SenDeanHeller", "SenMikeLee", "JerryMoran", "LisaMurkowski", "RandPaul", "SenateMajLdr"]
-nay=["RandPaul", "SenateMajLdr"]
+nay=["SenatorCollins", "SenBobCorker", "TomCotton", "LindseyGraham", "SenDeanHeller", "SenMikeLee", "JerryMoran", "LisaMurkowski", "RandPaul", "SenateMajLdr"]
+# nay=["RandPaul", "SenateMajLdr"]
 state_data = pd.DataFrame({'States': d, 'Tweets': s})
 for line in file:
 		line = line.strip().split(';')
@@ -42,7 +42,7 @@ for line in file:
 		senator_num_Tweets = sum(1 for line in open(line[2]+"_cleaned.csv"))
 		current_tweets = state_data.loc[state_data['States']==state, "Tweets"].values[0]
 		if current_tweets:
-			state_data.loc[state_data['States']==state, "Tweets"] = current_tweets +senator_num_Tweets
+			state_data.loc[state_data['States']==state, "Tweets"] = (current_tweets +senator_num_Tweets)/2
 		else:
 			state_data.loc[state_data['States']==state, "Tweets"] =  senator_num_Tweets
 
@@ -66,7 +66,7 @@ data = [go.Choropleth(
 
 layout = go.Layout(
     title = go.layout.Title(
-        text = 'Tweets by State to Senator in July 2017 about Obamacare/Healthcare<br>Without KY Senators<br>(Hover for breakdown)'
+        text = 'Tweets by State to Senator in July 2017 about Obamacare/Healthcare<br>Without Republicans Who Voted Nay<br>(Hover for breakdown)'
     ),
     geo = go.layout.Geo(
         scope = 'usa',
