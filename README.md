@@ -2,6 +2,8 @@
 I have three different files: one for each exercise. They are labeled Exercise1.py, Exercise2.py, and Exercise3.py.
 To run these files simply run `python Exercise1.py`, `python Exercise2.py`, and `python Exercise3.py`.
 
+language.py: `python language.py` is the command. NewObamacare.csv is the input file and it writes out to NewObamacareEn.csv for English tweets and NewObamacareNotEn.csv for non-English tweets.
+
 # Python version
 I used python 3.5.2 to run this code.
 
